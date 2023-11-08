@@ -282,27 +282,27 @@ export const barChartBoxVisit = {
     chartData: [
         {
             name: "Sun",
-            visit: 4000,
+            visit: 2600,
         },
         {
             name: "Mon",
-            visit: 3000,
+            visit: 4500,
         },
         {
             name: "Tue",
-            visit: 2000,
+            visit: 2700,
         },
         {
             name: "Wed",
-            visit: 2780,
+            visit: 3380,
         },
         {
             name: "Thu",
-            visit: 1890,
+            visit: 5390,
         },
         {
             name: "Fri",
-            visit: 2390,
+            visit: 4210,
         },
         {
             name: "Sat",
