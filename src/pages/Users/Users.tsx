@@ -2,10 +2,12 @@ import { GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
 import DataGridBox from '../../components/DataGridBox/DataGridBox';
 import './style.scss';
 import { userRows } from '../../data';
+import { useState } from 'react';
+import AddNewUser from '../../components/AddNewUser/AddNewUser';
 
 const columns: GridColDef[] = [
     { field: "id", headerName: "ID", width: 90 },
-    { field: "avatar", headerName: "Avatar", width: 100, renderCell: (params) => {
+    { field: "img", headerName: "Avatar", width: 100, renderCell: (params) => {
           return <img src={params.row.img || "noavatar.png"} alt="" /> },
     },
     {
@@ -55,13 +57,17 @@ const columns: GridColDef[] = [
 
 
 const Users = () => {
+
+  const [open, setOpen] = useState(false);
+
     return (
         <div className="users">
             <div className="info">
                 <h1>Users</h1>
-                <button>Add New User</button>
+                <button onClick={() => setOpen(true)}>Add New User</button>
             </div>
             <DataGridBox slug="users" columns={columns} rows={userRows} />
+            {open && <AddNewUser setOpen={setOpen} slug="User" columns={columns} />}
         </div>
     )
 }
