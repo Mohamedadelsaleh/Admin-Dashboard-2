@@ -13,7 +13,7 @@ const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     //add new item
 };
 
-const AddNewUser = (props: Props) => {
+const AddNew = (props: Props) => {
     return (
         <div className="addNewUser">
             <div className="model">
@@ -38,4 +38,4 @@ const AddNewUser = (props: Props) => {
     );
 };
 
-export default AddNewUser;
+export default AddNew;

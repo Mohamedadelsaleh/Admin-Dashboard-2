@@ -21,7 +21,7 @@ function DataGridBox(props: Props) {
   };
 
   const actionColumn: GridColDef = {
-    field: "action", headerName: "Action", width: 200,
+    field: "action", headerName: "Action", width: 100,
     renderCell: (params) => {
       return (
         <div className="action">
