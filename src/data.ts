@@ -118,21 +118,21 @@ export const menu = [
 export const topDealUsers = [
     {
         id: 1,
-        img:'MinaKameel.jpg',
+        img:'/MinaKameel.jpg',
         username: 'Mina Kameel',
         email:'minakameel97@gmail.com',
         amount: '3.668',
     },
     {
         id: 2,
-        img:'Khouly.jpg',
+        img:'/Khouly.jpg',
         username: 'Ahmed EL-Sayed',
         email:'ahmedelsayed7@gmail.com',
         amount: '3.256',
     },
     {
         id: 3,
-        img:'Abanoub.jpg',
+        img:'/Abanoub.jpg',
         username: 'Abanoub Kamal',
         email:'abanoubkamal2@gmail.com',
         amount: '2.998',

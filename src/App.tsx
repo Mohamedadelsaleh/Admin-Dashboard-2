@@ -10,6 +10,11 @@ import NavBar from "./components/NavBar/NavBar";
 import Menu from "./components/Menu/Menu";
 import Footer from "./components/Footer/Footer";
 import './styles/global.scss'
+import User from "./pages/User/User";
+import Product from "./pages/Product/Product";
+import { QueryClientProvider,  QueryClient, useQuery } from "@tanstack/react-query";
+
+const queryClient = new QueryClient();
 
 function App() {
 
@@ -22,7 +27,9 @@ function App() {
             <Menu />
           </div>
           <div className="contentContainer">
+          <QueryClientProvider client={queryClient}>
             <Outlet />
+          </QueryClientProvider>
           </div>
         </div>
         <Footer />
@@ -46,6 +53,14 @@ function App() {
         {
           path: '/products',
           element: <Products />
+        },
+        {
+          path: '/users/:id',
+          element: <User />
+        },
+        {
+          path: '/products/:id',
+          element: <Product />
         }
       ]
     }
