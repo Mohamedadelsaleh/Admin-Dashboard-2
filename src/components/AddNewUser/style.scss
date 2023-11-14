@@ -1,7 +1,7 @@
 @import '../../styles/variables.scss';
 
 .addNewUser{
-    width: 98.9vw;
+    width: 100vw;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -56,10 +56,6 @@
                     outline: none;
                     border: 1px solid $soft-color;
                     border-radius: 3px;
-                    -webkit-border-radius: 3px;
-                    -moz-border-radius: 3px;
-                    -ms-border-radius: 3px;
-                    -o-border-radius: 3px;
                 }
             }
 

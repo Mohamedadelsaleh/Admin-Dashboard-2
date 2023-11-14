@@ -5,6 +5,8 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
     .logo{
         display: flex;
         align-items: center;
@@ -51,11 +53,7 @@
                 height: 26px;
                 border-radius: 50%;
                 object-fit: cover;
-                -webkit-border-radius: 50%;
-                -moz-border-radius: 50%;
-                -ms-border-radius: 50%;
-                -o-border-radius: 50%;
-    }
+            }
         }
     }
 
