@@ -60,19 +60,19 @@ export const menu = [
             {
                 id: 2,
                 title:'Notes',
-                url:'/',
+                url:'/notes',
                 icon:'note.svg',
             },
             {
                 id: 3,
                 title:'Forms',
-                url:'/',
+                url:'/forms',
                 icon:'form.svg',
             },
             {
                 id: 4,
                 title:'Calendar',
-                url:'/',
+                url:'/calendar',
                 icon:'calendar.svg',
             },
         ]
@@ -84,13 +84,13 @@ export const menu = [
             {
                 id: 1,
                 title:'Settings',
-                url:'/',
+                url:'/settings',
                 icon:'setting.svg',
             },
             {
                 id: 2,
                 title:'Backups',
-                url:'/',
+                url:'/backups',
                 icon:'backup.svg',
             },
         ]
@@ -108,7 +108,7 @@ export const menu = [
             {
                 id: 2,
                 title:'Logs',
-                url:'/',
+                url:'/logs',
                 icon:'log.svg',
             },
         ]

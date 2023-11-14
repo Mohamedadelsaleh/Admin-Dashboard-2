@@ -2,11 +2,8 @@ import { GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
 import DataGridBox from '../../components/DataGridBox/DataGridBox';
 import './style.scss';
 import {
-  QueryClient,
-  QueryClientProvider,
   useQuery,
 } from '@tanstack/react-query'
-import { userRows } from '../../data';
 import { useState } from 'react';
 import AddNewUser from '../../components/AddNewUser/AddNewUser';
 

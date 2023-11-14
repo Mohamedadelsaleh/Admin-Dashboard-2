@@ -12,7 +12,8 @@ import Footer from "./components/Footer/Footer";
 import './styles/global.scss'
 import User from "./pages/User/User";
 import Product from "./pages/Product/Product";
-import { QueryClientProvider,  QueryClient, useQuery } from "@tanstack/react-query";
+import { QueryClientProvider,  QueryClient } from "@tanstack/react-query";
+import CommingSoon from "./components/CommingSoon/CommingSoon";
 
 const queryClient = new QueryClient();
 
@@ -61,7 +62,39 @@ function App() {
         {
           path: '/products/:id',
           element: <Product />
-        }
+        },
+        {
+          path: '/orders',
+          element: <CommingSoon />
+        },
+        {
+          path: '/posts',
+          element: <CommingSoon />
+        },
+        {
+          path: '/notes',
+          element: <CommingSoon />
+        },
+        {
+          path: '/forms',
+          element: <CommingSoon />
+        },
+        {
+          path: '/calendar',
+          element: <CommingSoon />
+        },
+        {
+          path: '/settings',
+          element: <CommingSoon />
+        },
+        {
+          path: '/backups',
+          element: <CommingSoon />
+        },
+        {
+          path: '/logs',
+          element: <CommingSoon />
+        },
       ]
     }
   ]);
