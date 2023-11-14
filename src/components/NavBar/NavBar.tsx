@@ -8,9 +8,9 @@ const NavBar = () => {
                 <span>NexSphere Dashboard</span>
             </div>
             <div className="icons">
-                <img src="/search.svg" alt="icon" />
-                <img src="/app.svg" alt="icon" />
-                <img src="/expand.svg" alt="icon" />
+                <img src="/search.svg" className="icon" />
+                <img src="/app.svg" className="icon" />
+                <img src="/expand.svg" className="icon" />
                 <div className="notification">
                     <img src="/notifications.svg" alt="icon" />
                     <span>1</span>
@@ -19,7 +19,7 @@ const NavBar = () => {
                     <img src="/mohamed.jpg" alt="icon" />
                     <span>Mohamed</span>
                 </div>
-                <img src="/settings.svg" alt="icon" />
+                <img src="/settings.svg" className="icon" />
             </div>
         </div>
     )
