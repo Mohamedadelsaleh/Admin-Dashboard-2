@@ -14,7 +14,7 @@ const AddNew = (props: Props) => {
 
     const mutation = useMutation({
         mutationFn: () => {
-        return fetch(`http://localhost:8800/api/${props.slug}s`, {
+        return fetch(`https://nexsphare-admin-dashboard.onrender.com/api/${props.slug}s`, {
             method: "post",
             headers: {
             Accept: "application/json",

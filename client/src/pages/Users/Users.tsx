@@ -65,7 +65,7 @@ const Users = () => {
   const { isPending, data } = useQuery({
     queryKey: ['allusers'],
     queryFn: () =>
-      fetch('http://localhost:8800/api/users')
+      fetch('https://nexsphare-admin-dashboard.onrender.com/api/users')
       .then(
         (res) => res.json()
         ,

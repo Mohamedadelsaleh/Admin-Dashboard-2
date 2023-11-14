@@ -13,7 +13,7 @@ function DataGridBox(props: Props) {
   const queryClient = useQueryClient();
   const mutation = useMutation({
     mutationFn: (id: number) => {
-      return fetch(`http://localhost:8800/api/${props.slug}/${id}`, {
+      return fetch(`https://nexsphare-admin-dashboard.onrender.com/api/${props.slug}/${id}`, {
         method: "delete",
       });
     },
