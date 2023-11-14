@@ -14,6 +14,7 @@ import User from "./pages/User/User";
 import Product from "./pages/Product/Product";
 import { QueryClientProvider,  QueryClient } from "@tanstack/react-query";
 import CommingSoon from "./components/CommingSoon/CommingSoon";
+import './style.scss';
 
 const queryClient = new QueryClient();
 

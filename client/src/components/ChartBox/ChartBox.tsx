@@ -43,7 +43,7 @@ const ChartBox = (props: Props) => {
                   display: "none",
                 }}
                 position={{
-                  x: 0,
+                  x: -10,
                   y: 60,
                 }}
               />

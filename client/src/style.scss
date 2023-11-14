@@ -1,0 +1,7 @@
+@import './styles/responsive.scss';
+
+.menuContainer{
+    @include sm{
+        display: none;
+    }
+}
